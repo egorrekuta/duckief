@@ -1,0 +1,6 @@
+fh=open("hello.txt","w")
+fh.write("Hello,world\n")
+fh.close()
+fh=open("hello.txt","r")
+print(fh.read())
+fh.close()
